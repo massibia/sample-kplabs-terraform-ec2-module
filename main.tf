@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "myec2" {
-    ami = "ami-0bb84b8ffd87024d8"
+    ami = "ami-04c267a6ca05944f8"
     instance_type = "t3.micro"
 }
